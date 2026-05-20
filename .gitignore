@@ -1,0 +1,18 @@
+# Mengabaikan Virtual Environment
+venv/
+.venv/
+env/
+
+# Mengabaikan file temporary hasil compile PyInstaller
+build/
+*.spec
+
+# Mengabaikan data transaksi lokal (opsional, agar repositori bersih)
+# Jika ingin menyertakan database kosong untuk dosen, baris di bawah ini jangan ditulis
+database_absensi.xlsx
+hasil_barcode/
+Laporan_Absensi_*.xlsx
+
+# Mengabaikan cache Python
+__pycache__/
+*.pyc
