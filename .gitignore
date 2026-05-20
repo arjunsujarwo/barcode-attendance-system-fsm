@@ -16,3 +16,7 @@ Laporan_Absensi_*.xlsx
 # Mengabaikan cache Python
 __pycache__/
 *.pyc
+
+dist/
+build/
+*.spec
